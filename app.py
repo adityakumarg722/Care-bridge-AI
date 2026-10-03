@@ -717,6 +717,7 @@ def home():
         </header>
 
         <section class="hero">
+            <canvas id="hero3d" style="position:absolute;inset:0;width:100%;height:100%;z-index:0"></canvas>
             <div class="hero-content">
                 <span class="hero-tag">YOUR HEALTH, OUR PRIORITY</span>
 
@@ -930,6 +931,8 @@ def home():
             </p>
 
         </main>
+
+        <script src="/static/hero3d.js"></script>
 
     </body>
     </html>
